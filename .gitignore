@@ -29,3 +29,6 @@ obj/
 *.bak
 *.log
 
+.neon
+.env.local
+node_modules/
