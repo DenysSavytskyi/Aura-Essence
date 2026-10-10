@@ -6,10 +6,10 @@
 */
 
 SELECT CONCAT(UPPER(brand), ': ', product) AS "Brand product", 
-       ROUND(price * 0.85, 2) AS discounted_price
+       ROUND(price * 0.85, 2) AS "Discounted price"
 FROM perfume
 WHERE availability = TRUE
-ORDER BY discounted_price DESC;
+ORDER BY "Discounted price" DESC;
 
 /*
 2. Zákazník hľadá na webe parfumy s vanilkou. Vytiahni mu názvy, značky a popisy všetkých vôní,
