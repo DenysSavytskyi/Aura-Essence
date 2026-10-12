@@ -59,6 +59,8 @@ ORDER BY price ASC;
 
 /*
 Úloha ostatným
-    Zákazník hľadá parfum s vôňou vanilky. Nájdite názvy (product) a značky (brand) všetkých parfumov, 
-    ktoré majú v zložení tónov (description) slovo "vanilla".
+    Zákazník hľadá parfum od značky "Chanel" alebo "Dior". 
+    Nájdite názov (product), značku (brand) a cenu (price) všetkých parfumov od týchto dvoch značiek, 
+    ktoré sú momentálne dostupné na sklade (availability = TRUE). 
+    Výslednú tabuľku zoraďte podľa značky a potom podľa ceny od najlacnejšieho.
 */
